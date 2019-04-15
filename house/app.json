@@ -13,11 +13,11 @@
 			"generator": "Object3D.toJSON"
 		},
 		"object": {
-			"uuid": "E9D58CA4-31F2-4A59-8A59-11781CCEA92F",
+			"uuid": "EF7C946E-0012-49E9-BD46-06981F3A587E",
 			"type": "PerspectiveCamera",
 			"name": "Camera",
 			"layers": 1,
-			"matrix": [-0.994499,0,-0.104748,0,-0.031769,0.952898,0.301622,0,0.099814,0.303291,-0.947656,0,0.035952,0.793964,-6.680879,1],
+			"matrix": [0.874031,0,-0.48587,0,-0.208748,0.903001,-0.375517,0,0.438741,0.429638,0.789251,0,2.352264,1.91523,2.570827,1],
 			"fov": 50,
 			"zoom": 1,
 			"near": 0.01,
@@ -67,7 +67,7 @@
 			{
 				"uuid": "DF979F2F-87C3-4446-A917-62BC1477FA70",
 				"type": "MeshStandardMaterial",
-				"color": 0,
+				"color": 16777215,
 				"roughness": 0.5,
 				"metalness": 0.5,
 				"emissive": 0,
@@ -78,7 +78,7 @@
 			{
 				"uuid": "DD24A89B-548D-4DB3-B3DE-EE31E1A001F3",
 				"type": "MeshStandardMaterial",
-				"color": 0,
+				"color": 16777215,
 				"roughness": 0.5,
 				"metalness": 0.5,
 				"emissive": 0,
