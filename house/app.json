@@ -1,0 +1,169 @@
+{
+	"metadata": {
+		"type": "App"
+	},
+	"project": {
+		"shadows": true,
+		"vr": false
+	},
+	"camera": {
+		"metadata": {
+			"version": 4.5,
+			"type": "Object",
+			"generator": "Object3D.toJSON"
+		},
+		"object": {
+			"uuid": "E9D58CA4-31F2-4A59-8A59-11781CCEA92F",
+			"type": "PerspectiveCamera",
+			"name": "Camera",
+			"layers": 1,
+			"matrix": [-0.994499,0,-0.104748,0,-0.031769,0.952898,0.301622,0,0.099814,0.303291,-0.947656,0,0.035952,0.793964,-6.680879,1],
+			"fov": 50,
+			"zoom": 1,
+			"near": 0.01,
+			"far": 1000,
+			"focus": 10,
+			"aspect": 1.782178,
+			"filmGauge": 35,
+			"filmOffset": 0
+		}
+	},
+	"scene": {
+		"metadata": {
+			"version": 4.5,
+			"type": "Object",
+			"generator": "Object3D.toJSON"
+		},
+		"geometries": [
+			{
+				"uuid": "CBBF5E91-D8F5-4A60-B7F3-A66A40EDC6AA",
+				"type": "BoxBufferGeometry",
+				"width": 1,
+				"height": 1,
+				"depth": 1,
+				"widthSegments": 1,
+				"heightSegments": 1,
+				"depthSegments": 1
+			},
+			{
+				"uuid": "DDE4A05F-FB91-47E3-AC6D-096AB2084DD0",
+				"type": "BoxBufferGeometry",
+				"width": 1,
+				"height": 1,
+				"depth": 1,
+				"widthSegments": 1,
+				"heightSegments": 1,
+				"depthSegments": 1
+			},
+			{
+				"uuid": "6090AD26-D41D-41AB-BDC8-2ED222D4F268",
+				"type": "PlaneBufferGeometry",
+				"width": 1,
+				"height": 1,
+				"widthSegments": 1,
+				"heightSegments": 1
+			}],
+		"materials": [
+			{
+				"uuid": "DF979F2F-87C3-4446-A917-62BC1477FA70",
+				"type": "MeshStandardMaterial",
+				"color": 0,
+				"roughness": 0.5,
+				"metalness": 0.5,
+				"emissive": 0,
+				"depthFunc": 3,
+				"depthTest": true,
+				"depthWrite": true
+			},
+			{
+				"uuid": "DD24A89B-548D-4DB3-B3DE-EE31E1A001F3",
+				"type": "MeshStandardMaterial",
+				"color": 0,
+				"roughness": 0.5,
+				"metalness": 0.5,
+				"emissive": 0,
+				"depthFunc": 3,
+				"depthTest": true,
+				"depthWrite": true
+			},
+			{
+				"uuid": "591F2B16-6BF0-404B-AE6A-494A9E66394E",
+				"type": "MeshStandardMaterial",
+				"color": 16777215,
+				"roughness": 0.5,
+				"metalness": 0.5,
+				"emissive": 0,
+				"depthFunc": 3,
+				"depthTest": true,
+				"depthWrite": true
+			}],
+		"object": {
+			"uuid": "3741222A-BD8F-401C-A5D2-5A907E891896",
+			"type": "Scene",
+			"name": "Scene",
+			"layers": 1,
+			"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+			"children": [
+				{
+					"uuid": "F3E30234-AD2E-4DC1-A9DC-0CE0C39B39C3",
+					"type": "DirectionalLight",
+					"name": "DirectionalLight",
+					"layers": 1,
+					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5,10,7.5,1],
+					"color": 16777215,
+					"intensity": 1,
+					"shadow": {
+						"camera": {
+							"uuid": "0A97A98F-384D-4FF1-8E28-E87986D5674B",
+							"type": "OrthographicCamera",
+							"layers": 1,
+							"zoom": 1,
+							"left": -5,
+							"right": 5,
+							"top": 5,
+							"bottom": -5,
+							"near": 0.5,
+							"far": 500
+						}
+					}
+				},
+				{
+					"uuid": "DA688775-0D85-49DC-AEC6-E5DEE0620772",
+					"type": "Group",
+					"name": "Group",
+					"layers": 1,
+					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+					"children": [
+						{
+							"uuid": "B95ADA91-C512-4E83-A643-99E1630F01D0",
+							"type": "Mesh",
+							"name": "Box",
+							"layers": 1,
+							"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0.490416,0,1],
+							"geometry": "CBBF5E91-D8F5-4A60-B7F3-A66A40EDC6AA",
+							"material": "DF979F2F-87C3-4446-A917-62BC1477FA70"
+						},
+						{
+							"uuid": "3DDCF7DD-2385-48BC-AEF8-9F3648957E2E",
+							"type": "Mesh",
+							"name": "Box",
+							"layers": 1,
+							"matrix": [0.49665,-0.499678,0,0,0.513228,0.510118,0,0,0,0,1,0,0,0.989305,0,1],
+							"geometry": "DDE4A05F-FB91-47E3-AC6D-096AB2084DD0",
+							"material": "DD24A89B-548D-4DB3-B3DE-EE31E1A001F3"
+						},
+						{
+							"uuid": "54D3D7AE-80FB-4C20-9DA9-B6205ECBA0AF",
+							"type": "Mesh",
+							"name": "Plane",
+							"layers": 1,
+							"matrix": [1.991019,0,0,0,0,0.003141,-2.001963,0,0,0.937658,0.001471,0,0,0,0,1],
+							"geometry": "6090AD26-D41D-41AB-BDC8-2ED222D4F268",
+							"material": "591F2B16-6BF0-404B-AE6A-494A9E66394E"
+						}]
+				}],
+			"background": 11184810
+		}
+	},
+	"scripts": {}
+}
