@@ -79,7 +79,7 @@
 				"type": "DirectionalLight",
 				"name": "DirectionalLight",
 				"layers": 1,
-				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5,10,7.5,1],
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,10,10,10,1],
 				"color": 16777215,
 				"intensity": 1,
 				"shadow": {
@@ -131,6 +131,29 @@
 						"geometry": "6090AD26-D41D-41AB-BDC8-2ED222D4F268",
 						"material": "591F2B16-6BF0-404B-AE6A-494A9E66394E"
 					}]
+			},
+			{
+				"uuid": "E18DCF7F-D8CE-4319-8D8E-DE00A64535CA",
+				"type": "DirectionalLight",
+				"name": "DirectionalLight",
+				"layers": 1,
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-10,10,-10,1],
+				"color": 16777215,
+				"intensity": 1,
+				"shadow": {
+					"camera": {
+						"uuid": "CF9089C5-9CCD-4E5E-96AC-7190F003BB36",
+						"type": "OrthographicCamera",
+						"layers": 1,
+						"zoom": 1,
+						"left": -5,
+						"right": 5,
+						"top": 5,
+						"bottom": -5,
+						"near": 0.5,
+						"far": 500
+					}
+				}
 			}],
 		"background": 11184810
 	}

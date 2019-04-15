@@ -17,13 +17,13 @@
 			"type": "PerspectiveCamera",
 			"name": "Camera",
 			"layers": 1,
-			"matrix": [0.874031,0,-0.48587,0,-0.208748,0.903001,-0.375517,0,0.438741,0.429638,0.789251,0,2.352264,1.91523,2.570827,1],
+			"matrix": [0.330034,0,0.943969,0,0.107465,0.993499,-0.037572,0,-0.937832,0.113844,0.327889,0,-8.946993,4.031901,5.983577,1],
 			"fov": 50,
 			"zoom": 1,
 			"near": 0.01,
 			"far": 1000,
 			"focus": 10,
-			"aspect": 1.782178,
+			"aspect": 1.921708,
 			"filmGauge": 35,
 			"filmOffset": 0
 		}
@@ -109,7 +109,7 @@
 					"type": "DirectionalLight",
 					"name": "DirectionalLight",
 					"layers": 1,
-					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5,10,7.5,1],
+					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,10,10,10,1],
 					"color": 16777215,
 					"intensity": 1,
 					"shadow": {
@@ -161,6 +161,29 @@
 							"geometry": "6090AD26-D41D-41AB-BDC8-2ED222D4F268",
 							"material": "591F2B16-6BF0-404B-AE6A-494A9E66394E"
 						}]
+				},
+				{
+					"uuid": "E18DCF7F-D8CE-4319-8D8E-DE00A64535CA",
+					"type": "DirectionalLight",
+					"name": "DirectionalLight",
+					"layers": 1,
+					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-10,10,-10,1],
+					"color": 16777215,
+					"intensity": 1,
+					"shadow": {
+						"camera": {
+							"uuid": "CF9089C5-9CCD-4E5E-96AC-7190F003BB36",
+							"type": "OrthographicCamera",
+							"layers": 1,
+							"zoom": 1,
+							"left": -5,
+							"right": 5,
+							"top": 5,
+							"bottom": -5,
+							"near": 0.5,
+							"far": 500
+						}
+					}
 				}],
 			"background": 11184810
 		}
